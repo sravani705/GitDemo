@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-19T16:30:49 AEDT" name="Practice" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="66">
+    <groups>
+      <group name="smoke">
+        <method signature="day1.Demo()[pri:0, instance:Test.day1@4218d6a3]" name="Demo" class="Test.day1"/>
+        <method signature="day3.mobile()[pri:0, instance:Test.day3@3a52dba3]" name="mobile" class="Test.day3"/>
+        <method signature="day4.Appium()[pri:0, instance:Test.day4@2a5c8d3f]" name="Appium" class="Test.day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-02-19T16:30:49 AEDT" name="wishes" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="54">
+      <class name="Test.day1">
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:Test.day1@4218d6a3]" started-at="2026-02-19T16:30:49 AEDT" name="Beforeclass" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method signature="Demo()[pri:0, instance:Test.day1@4218d6a3]" started-at="2026-02-19T16:30:49 AEDT" name="Demo" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo1()[pri:0, instance:Test.day1@4218d6a3]" started-at="2026-02-19T16:30:49 AEDT" name="Demo1" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Test.day1@4218d6a3]" started-at="2026-02-19T16:30:49 AEDT" name="Afterclass" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:Test.day1@4218d6a3]" started-at="2026-02-19T16:30:49 AEDT" name="endtest" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- Test.day1 -->
+      <class name="Test.day2">
+        <test-method is-config="true" signature="execute()[pri:0, instance:Test.day2@7b98f307]" started-at="2026-02-19T16:30:49 AEDT" name="execute" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="wish2(java.lang.String)[pri:0, instance:Test.day2@7b98f307]" started-at="2026-02-19T16:30:49 AEDT" name="wish2" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sravaniacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wish2 -->
+      </class> <!-- Test.day2 -->
+    </test> <!-- wishes -->
+    <test started-at="2026-02-19T16:30:49 AEDT" name="Courses" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="66">
+      <class name="Test.day3">
+        <test-method is-config="true" signature="bfsuite()[pri:0, instance:Test.day3@3a52dba3]" started-at="2026-02-19T16:30:49 AEDT" name="bfsuite" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method signature="accountcreation(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@3a52dba3]" started-at="2026-02-19T16:30:49 AEDT" name="accountcreation" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loroacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountcreation -->
+        <test-method signature="accountdeletion(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@3a52dba3]" started-at="2026-02-19T16:30:49 AEDT" name="accountdeletion" data-provider="getData" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountdeletion -->
+        <test-method signature="accountdeletion(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@3a52dba3]" started-at="2026-02-19T16:30:49 AEDT" name="accountdeletion" data-provider="getData" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountdeletion -->
+        <test-method signature="accountdeletion(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@3a52dba3]" started-at="2026-02-19T16:30:49 AEDT" name="accountdeletion" data-provider="getData" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountdeletion -->
+        <test-method signature="mobile()[pri:0, instance:Test.day3@3a52dba3]" started-at="2026-02-19T16:30:49 AEDT" name="mobile" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+      </class> <!-- Test.day3 -->
+      <class name="Test.day4">
+        <test-method is-config="true" signature="Beforeeverymethodinclass()[pri:0, instance:Test.day4@2a5c8d3f]" started-at="2026-02-19T16:30:49 AEDT" name="Beforeeverymethodinclass" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeeverymethodinclass -->
+        <test-method signature="Appium()[pri:0, instance:Test.day4@2a5c8d3f]" started-at="2026-02-19T16:30:49 AEDT" name="Appium" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium -->
+        <test-method is-config="true" signature="Aftereverymethodinclass()[pri:0, instance:Test.day4@2a5c8d3f]" started-at="2026-02-19T16:30:49 AEDT" name="Aftereverymethodinclass" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftereverymethodinclass -->
+        <test-method signature="selenium()[pri:0, instance:Test.day4@2a5c8d3f]" started-at="2026-02-19T16:30:49 AEDT" name="selenium" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium -->
+        <test-method is-config="true" signature="Beforeeverymethodinclass()[pri:0, instance:Test.day4@2a5c8d3f]" started-at="2026-02-19T16:30:49 AEDT" name="Beforeeverymethodinclass" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeeverymethodinclass -->
+        <test-method is-config="true" signature="Aftereverymethodinclass()[pri:0, instance:Test.day4@2a5c8d3f]" started-at="2026-02-19T16:30:49 AEDT" name="Aftereverymethodinclass" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftereverymethodinclass -->
+        <test-method is-config="true" signature="aftersui()[pri:0, instance:Test.day4@2a5c8d3f]" started-at="2026-02-19T16:30:49 AEDT" name="aftersui" finished-at="2026-02-19T16:30:49 AEDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersui -->
+      </class> <!-- Test.day4 -->
+    </test> <!-- Courses -->
+  </suite> <!-- Practice -->
+</testng-results>

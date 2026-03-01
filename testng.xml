@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practice" parallel="tests" thread-count="5"> <!-- to run the 5 test cases in different browsers parallelly -->
+<listeners>
+<listener class-name="Test.Listeners"></listener>
+</listeners>
+<parameter name="URL" value="rahulsheetyacedamy.com"></parameter>
+  <test name="wishes">
+  <parameter name="URL" value="sravaniacademy.com"></parameter>
+    <classes>
+      <class name="Test.day1"/>
+      <class name="Test.day2"/>
+    </classes>
+    </test> 
+    
+    
+    <test thread-count="5" name="Courses">
+    <parameter name="URL" value="loroacademy.com"></parameter>
+    <parameter name="API/key" value="123456"/>
+    <classes>
+      <class name="Test.day3"> <!-- to include only some methods in existing java file -->
+      <methods>
+      <include name="account.*" ></include> <!-- to include only some methods with method name starts with accout in existing java file -->
+       <include name="mobile" ></include>
+      </methods>
+      </class>
+      <class name="Test.day4"> <!-- to exclude some methods in existing java file -->
+      <methods>
+        <exclude name="cypress"></exclude>
+      
+      </methods>
+      
+      </class>
+       </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
