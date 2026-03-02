@@ -11,6 +11,7 @@ public class day3 {
 	public void personal()
 	{
 		System.out.println("personal");
+		System.out.println("personal2");
 	}
 	
 	@Parameters({"URL","API/key"})
@@ -20,7 +21,7 @@ public class day3 {
 		System.out.println("accountcreation");
 		System.out.println(testurl);
 		System.out.println(key);
-		
+		System.out.println("Accountupdate");
 		
 	}
 	
